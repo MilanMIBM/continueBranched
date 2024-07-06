@@ -33,6 +33,7 @@ import Replicate from "./Replicate.js";
 import TextGenWebUI from "./TextGenWebUI.js";
 import Together from "./Together.js";
 import ContinueProxy from "./stubs/ContinueProxy.js";
+import IBMGenerativeAI from "./IBMGenerativeAI";
 
 function convertToLetter(num: number): string {
   let result = "";
@@ -119,6 +120,7 @@ const LLMs = [
   DeepInfra,
   Flowise,
   Groq,
+  IBMGenerativeAI,
   Fireworks,
   ContinueProxy,
   Cloudflare,
